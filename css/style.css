@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.circulo {
+  width: 38px;
+  height: 38px;
+  background-color: #555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.circulo:hover {
+  background-color: #777;
+}
+
+
+
+
 :root{
     --green:#3d5c9d;
 }
