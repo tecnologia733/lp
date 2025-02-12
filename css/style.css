@@ -2,6 +2,8 @@
 
 
 .footer {
+  text-align: center;
+  font-size: 1.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +12,7 @@
 }
 
 .footer a {
+  text-decoration: none;
   color: #fff;
   margin: 0 10px;
   transition: color 0.3s ease;
@@ -22,13 +25,17 @@
 .circulo {
   width: 38px;
   height: 38px;
-  background-color: #555;
-  border-radius: 50%;
+  background: rgb(221, 221, 221);
+  border-radius: 52px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
   transition: background-color 0.3s ease;
+  color: rgb(32, 32, 32);
+  text-align: center;
+
+
 }
 
 .circulo:hover {
